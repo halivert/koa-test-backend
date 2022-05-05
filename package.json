@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "0.1.0",
+  "main": "index.mjs",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.3.0",
+    "connect-multiparty": "^2.2.0",
+    "koa": "^2.13.4",
+    "koa-body": "^4.2.0",
+    "koa2-router": "^2.0.1",
+    "mime-types": "^2.1.35",
+    "mongoose": "^6.2.11",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  },
+  "scripts": {
+    "start": "nodemon index.mjs"
+  }
+}
